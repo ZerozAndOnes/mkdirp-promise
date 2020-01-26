@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "name": "mkdirp-promise",
   "description": "Promise version of mkdirp",
   "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
@@ -34,7 +34,7 @@
     "tap": "^12.0.0"
   },
   "dependencies": {
-    "mkdirp": "*",
+    "mkdirp": "^0.5.1",
     "standard": "^12.0.0"
   }
 }
