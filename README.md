@@ -1,3 +1,7 @@
+# Forked Due To
+mkdirp not being tied down to a specific version (*), and the latest one requires node > 12. With ^0.5.1 it works with node 6.
+Can't use [resolution](https://github.com/yarnpkg/rfcs/blob/master/implemented/0000-selective-versions-resolutions.md)`"**/mkdirp": "^0.5.1"`, as Cloud Function [supports yarn](https://cloud.google.com/functions/docs/writing/specifying-dependencies-nodejs) (for resolution) on node >= 8 with yarn.lock.
+
 # mkdirp-promise [![version][npm-version]][npm-url] [![License][license-image]][license-url]
 
 [Promise] version of [mkdirp]:
